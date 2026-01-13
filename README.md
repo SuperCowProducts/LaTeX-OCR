@@ -7,7 +7,7 @@ The goal of this project is to create a learning based system that takes an imag
 ![header](https://user-images.githubusercontent.com/55287601/109183599-69431f00-778e-11eb-9809-d42b9451e018.png)
 
 ## Using the model
-To run the model you need Python 3.7+ (using a virtual environment such as `python -m venv` works and is the recommended way of installing).
+To run the model you need Python 3.7+ (using a virtual environment such as `python -m venv` works and is the recommended way of installing). If you encounter any problems be sure to check out the known issues below, most, while they are currently awaiting a fix, can be solved with ease :).
 
 If you don't have PyTorch installed. Follow their instructions [here](https://pytorch.org/get-started/locally/).
 
@@ -66,6 +66,9 @@ I'm trying to compile a documentation right now.
 
 Visit here: https://pix2tex.readthedocs.io/ 
 
+### Known Issues
+
+- "ModuleNotFoundError: No module named 'typing.io'; 'typing' is not a package" -> https://github.com/lukas-blecher/LaTeX-OCR/issues/415
 
 ## Training the model [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lukas-blecher/LaTeX-OCR/blob/main/notebooks/LaTeX_OCR_training.ipynb)
 
