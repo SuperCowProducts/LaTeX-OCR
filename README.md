@@ -7,7 +7,7 @@ The goal of this project is to create a learning based system that takes an imag
 ![header](https://user-images.githubusercontent.com/55287601/109183599-69431f00-778e-11eb-9809-d42b9451e018.png)
 
 ## Using the model
-To run the model you need Python 3.7+
+To run the model you need Python 3.7+ (using a virtual environment such as `python -m venv` works and is the recommended way of installing).
 
 If you don't have PyTorch installed. Follow their instructions [here](https://pytorch.org/get-started/locally/).
 
