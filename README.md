@@ -33,6 +33,8 @@ There are three ways to get a prediction from an image.
 
     Under linux, it is possible to use the GUI with `gnome-screenshot` (which comes with multiple monitor support). For other Wayland compositers, `grim` and `slurp` will be used for wlroots-based Wayland compositers and `spectacle` for KDE Plasma. Note that `gnome-screenshot` is not compatible with wlroots or Qt based compositers. Since `gnome-screenshot` will be preferred when available, you may have to set the environment variable `SCREENSHOT_TOOL` to `grim` or `spectacle` in these cases (other available values are `gnome-screenshot` and `pil`).
 
+For example, to set it to `spectacle`, use `export SCREENSHOT_TOOL=spectacle` before running `latexocr` command.
+
     ![demo](https://user-images.githubusercontent.com/55287601/117812740-77b7b780-b262-11eb-81f6-fc19766ae2ae.gif)
 
     If the model is unsure about the what's in the image it might output a different prediction every time you click "Retry". With the `temperature` parameter you can control this behavior (low temperature will produce the same result).
