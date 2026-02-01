@@ -17,7 +17,8 @@ Install the package `pix2tex`:
 pip install "pix2tex[gui]"
 ```
 
-You may also want to run `pip install antlr4-python3-runtime==4.9.2` to make sure the `latexocr` program works correctly (https://github.com/lukas-blecher/LaTeX-OCR/issues/415#issuecomment-2788779679).
+Use Python 3.12 to create the virtualn environment.
+~~You may also want to run `pip install antlr4-python3-runtime==4.9.2` to make sure the `latexocr` program works correctly (https://github.com/lukas-blecher/LaTeX-OCR/issues/415#issuecomment-2788779679)~~.
 
 Model checkpoints will be downloaded automatically.
 
