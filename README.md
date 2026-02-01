@@ -7,7 +7,10 @@ The goal of this project is to create a learning based system that takes an imag
 ![header](https://user-images.githubusercontent.com/55287601/109183599-69431f00-778e-11eb-9809-d42b9451e018.png)
 
 ## Using the model
-To run the model you need Python 3.7+ (using a virtual environment such as `python -m venv` works and is the recommended way of installing). If you encounter any problems be sure to check out the known issues below, most, while they are currently awaiting a fix, can be solved with ease :).
+
+Use Python 3.12 to create the virtual environment.
+~~You may also want to run `pip install antlr4-python3-runtime==4.9.2` to make sure the `latexocr` program works correctly (https://github.com/lukas-blecher/LaTeX-OCR/issues/415#issuecomment-2788779679)~~.
+If you encounter any problems be sure to check out the known issues below, most, while they are currently awaiting a fix, can be solved with ease :).
 
 If you don't have PyTorch installed. Follow their instructions [here](https://pytorch.org/get-started/locally/).
 
@@ -17,8 +20,7 @@ Install the package `pix2tex`:
 pip install "pix2tex[gui]"
 ```
 
-Use Python 3.12 to create the virtualn environment.
-~~You may also want to run `pip install antlr4-python3-runtime==4.9.2` to make sure the `latexocr` program works correctly (https://github.com/lukas-blecher/LaTeX-OCR/issues/415#issuecomment-2788779679)~~.
+
 
 Model checkpoints will be downloaded automatically.
 
